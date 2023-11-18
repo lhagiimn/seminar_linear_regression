@@ -36,6 +36,9 @@ y_pred = np.dot(x_train, weight_parameters)
 
 ### get regression error ###
 print('Train RMSE:', np.round(np.mean(np.sqrt((y_train.values-y_pred)**2)), 3))
+print(weight_parameters.shape, x_train.shape)
+exit()
+
 
 #### prediction on test set ###
 y_pred_test = np.dot(x_test, weight_parameters)
