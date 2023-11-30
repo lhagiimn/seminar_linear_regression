@@ -1,8 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-x_values_1 = np.arange(-50, 50.1, 0.1)
 
+x_values_1 = np.arange(-50, 50.1, 0.1)
 x_values_3 = np.arange(0, 50.1, 0.1)
 
 # Define the functions
