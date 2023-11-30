@@ -1,7 +1,7 @@
 import math
 
+## Problem 1 How many times does it have to fold to cross Mt. Fuji?
 THICKNESS = 0.00008 # [m] meters
-
 height_of_Fuji = 3776 # [m] meters
 folds = 0
 thickness = THICKNESS
@@ -11,6 +11,7 @@ while thickness <= height_of_Fuji:
 
 print("To height of Mt. Fuji: {} [folds]".format(folds))
 
+#[Problem 2] Function corresponding to arbitrary thickness
 proxima_centauri = 4.0175e+16
 def nfolds(thickness, heigth) :
     folds = 0
@@ -22,6 +23,7 @@ def nfolds(thickness, heigth) :
 folds_to_centauri = nfolds(THICKNESS, proxima_centauri)
 print("Folds to Proxima Centauri: ", folds_to_centauri)
 
+#[Question 3] Required length of paper
 def len_paper(tickness, number) :
     n = math.pow(2, number)
     return math.pi*tickness/6*(n+4)*(n-1)
