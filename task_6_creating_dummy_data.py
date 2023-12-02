@@ -1,6 +1,5 @@
 # Problem 1: Generating random numbers
 import numpy as np
-
 np.random.seed(0)
 
 # Mean vector
