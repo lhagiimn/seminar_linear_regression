@@ -13,6 +13,10 @@ y = linear_func(x)
 
 print('Y value:', y)
 
+plt.plot(y)
+plt.title('linear function')
+plt.show()
+
 #[Problem 2] Array combination
 xy = np.concatenate([np.expand_dims(x, axis=1),
                      np.expand_dims(y, axis=1)], axis=1)
